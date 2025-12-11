@@ -32,10 +32,23 @@ Divya, 27, Bengaluru, Data Analyst, 40000
 Harish, 30, Chennai, Software Engineer, 50000
 Column names are case-insensitive. Values are automatically trimmed of spaces.
 
-Limitations:
-Only supports single-level conditions in WHERE (AND/OR allowed, but no parentheses). 
-Only basic SQL features are supported: SELECT, FROM, WHERE, COUNT(). 
-No JOINs, GROUP BY, or nested queries.
+Supported SQL Grammar :
+SELECT clause
+-SELECT * FROM table; → selects all columns
+-SELECT col1, col2 FROM table; → selects specific columns
+FROM clause
+-Must specify a CSV filename (without .csv is okay): FROM people
+WHERE clause
+-Single or multiple conditions using AND / OR
+-Comparison operators supported: =, !=, <, >, <=, >=
+-Values can be strings (quoted 'value' or "value") or numbers
+COUNT aggregation
+-COUNT(*) → counts all rows
+-COUNT(column_name) → counts non-empty values in a column
+
+Limitations
+-No parentheses or nested conditions
+-No JOINs, GROUP BY, or subqueries
 
 Error Handling:
 Invalid column name → "Column 'xyz' not found." 
