@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------Mini SQL Engine------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------Mini SQL Engine-----------------------------------------------------------------------------------------
 
 A tiny in-memory SQL engine built in Python that lets you run simple SQL queries on CSV files without installing a full database.
 It's perfect for learning how databases work internally and experimenting with real data quickly.
