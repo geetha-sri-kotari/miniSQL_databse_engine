@@ -1,0 +1,16 @@
+order_id,customer_name,product,quantity,city
+1,Arjun,Mobile,2,Chennai
+2,Divya,Laptop,1,Bengaluru
+3,Rohith,Headphones,5,Hyderabad
+4,Harini,Smartwatch,3,Chennai
+5,Karthik,Tablet,2,Bengaluru
+6,Ananya,Camera,1,Coimbatore
+7,Sai,Laptop,2,Chennai
+8,Meera,Mobile,1,Bengaluru
+9,Pranav,Headphones,3,Hyderabad
+10,Shreya,Tablet,2,Chennai
+11,Varun,Smartwatch,4,Bengaluru
+12,Nisha,Camera,1,Chennai
+13,Aditya,Laptop,2,Bengaluru
+14,Keerthi,Mobile,1,Coimbatore
+15,Rahul,Headphones,2,Hyderabad
